@@ -8,6 +8,6 @@ entryRouter.post('/',
     entryController.createEntry, 
     (req, res) => {
         return res.status(200).json(res.locals.entry);
-}) 
+})
 
 module.exports = entryRouter;

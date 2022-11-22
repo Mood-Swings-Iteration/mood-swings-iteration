@@ -4,8 +4,11 @@ import Signup from './Signup.jsx';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Route, Link } from 'react-router-dom';
 
+import './app.css';
+
 const App = () => {
   return (
+    <h1 className="text-primary text-4xl font-bold">Hello world!</h1>
     // <div className='wrapper'>
     //   <h1>Journal App</h1>
     //   <BrowserRouter>

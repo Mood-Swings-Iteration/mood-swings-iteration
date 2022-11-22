@@ -32,6 +32,10 @@ const Signup = () => {
   return (
     <form>
       <label>
+        First Name
+      </label>
+
+      <label>
         Input Username
         <input
           ref={usernameInput}
